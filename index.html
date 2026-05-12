@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>OxyTips | Medical Oxygen Awareness</title>
+<link rel="stylesheet" href="sect.css">
 
 <style>
 
@@ -14,7 +15,7 @@
   --dark:#0f172a;
   --light:#ffffff;
   --gray:#64748b;
-  --bg:#ffffff;
+  --bg:#f8fafc;
   --card:#ffffff;
   --shadow:0 10px 30px rgba(0,0,0,0.08);
   --radius:18px;
@@ -49,7 +50,7 @@ header{
   z-index:1000;
   background:rgba(255,255,255,0.95);
   backdrop-filter:blur(10px);
-  box-shadow:0 2px 10px rgba(13, 139, 223, 0.322);
+  box-shadow:0 2px 10px rgba(0,0,0,0.05);
 }
 
 nav{
@@ -111,13 +112,14 @@ nav{
 }
 
 .SignUp{
-  background:transparent;
-  color:rgb(228, 5, 5) !important;
+  background:var(--primary);
+  color:white !important;
   padding:10px 18px;
   border-radius:50px;
 }
 
 .SignUp:hover{
+  background:var(--secondary);
 }
 
 /* MENU TOGGLE */
@@ -148,9 +150,9 @@ nav{
   text-align:center;
   padding:80px 20px;
   background:
-  linear-gradient(rgba(60, 69, 75, 0.356),
-  rgba(10, 12, 12, 0.212)),
-  url("images/sallogo.jpg");
+  linear-gradient(rgba(15,118,110,0.7),
+  rgba(15,23,42,0.75)),
+  url("images/officep.jpg");
 
   background-size:cover;
   background-position:center;
@@ -212,13 +214,12 @@ nav{
 
 .other-articles{
   width:calc(100% - 40px);
-  /*max-width:1000px;*/
+  max-width:1000px;
   margin:80px auto;
-  background:transparent;
+  background:white;
   padding:50px;
   border-radius:var(--radius);
   box-shadow:var(--shadow);
-  text-align: center;
 }
 
 .other-articles h1{
@@ -319,16 +320,6 @@ small{
   border-radius:20px;
   box-shadow:var(--shadow);
 }
-.last {
-  font-family:sans-serif,Arial;
-  font-size: large;
-  display: block;
-}
-.why-choose-us {
-  color: rgba(61, 62, 63, 0.774);
-  font-size:30px;
-  font-weight: bolder;
-}
 
 /* MOBILE */
 
@@ -382,10 +373,9 @@ small{
   }
 
   .other-articles{
-    width:calc(100% - 10px);
+    width:calc(100% - 30px);
     padding:30px 25px;
     margin:50px auto;
-    text-align: left;
   }
 
   .other-articles h1{
@@ -413,10 +403,10 @@ small{
 
 <div class="logo">
 
-<img src="images/sallogo.jpg" alt="SAS Logo">
+<img src="images/sallogo.jpg" alt="OxyTips Logo">
 
 <div class="company-name">
-SAS LTD
+SAS Ltd
 </div>
 
 </div>
@@ -452,11 +442,15 @@ Sign Up
 <div class="hero-content">
 
 <h1>
-Structural Aluminium <span class="last">Systems Limited</span>
+Structural Aluminiums
+<br>
+Systems Limited
 </h1>
 
 <p>
-Local constractor with a diference
+Your trusted guide to wellness,
+oxygen awareness, and modern
+medical education.
 </p>
 
 <div class="hero-buttons">
@@ -477,35 +471,99 @@ Sign In
 
 <!-- INFO -->
 
-<section class="other-articles">
+<section class="why-choose-us">
 
-<div class="why-choose-us">
-Why Choose Us
-</div>
+  <div class="container">
 
-<p>
-Medical Oxygen is an essential drug used
-in the treatment of hypoxemia, pneumonia,
-COVID-19, and emergency care.
-</p>
+    <div class="section-header">
+      <span class="tag">Why Choose Us</span>
+      <h2>Why Clients Choose Structural Aluminium Systems Limited</h2>
+      <p>
+        Delivering excellence in aluminium and interior construction solutions
+        with professionalism, precision, and long-lasting quality.
+      </p>
+    </div>
 
-<p>
-Proper oxygen levels ensure that your organs
-function efficiently and reduce fatigue.
-</p>
+    <div class="article-content">
 
-<p>
-<span>Important:</span>
-Oxygen must always be prescribed by a medical
-professional to avoid serious complications.
-</p>
+      <div class="article-image">
+        <img src="images/folding-door.jpg" alt="Construction and aluminium installation">
+      </div>
+
+      <div class="article-text">
+
+        <div class="feature">
+          <h3>Expertise & Professional Experience</h3>
+          <p>
+            Structural Aluminium Systems Limited is built on a foundation of
+            technical expertise, innovation, and industry experience. Our team
+            delivers modern aluminium solutions and interior finishing works
+            tailored to both residential and commercial projects.
+          </p>
+        </div>
+
+        <div class="feature">
+          <h3>High-Quality Aluminium Structures</h3>
+          <p>
+            We specialize in durable and elegant aluminium structures designed
+            to enhance functionality, appearance, and long-term value. From
+            windows and partitions to customised aluminium installations, we
+            ensure premium craftsmanship in every project.
+          </p>
+        </div>
+
+        <div class="feature">
+          <h3>Professional Ceiling Installation</h3>
+          <p>
+            Our ceiling installation services combine aesthetics and durability.
+            Whether it is suspended ceilings, decorative designs, or office
+            ceiling systems, we provide clean finishes that transform interior
+            spaces into modern and professional environments.
+          </p>
+        </div>
+
+        <div class="feature">
+          <h3>Precision Tiling & Drywall Partitioning</h3>
+          <p>
+            We provide expertly executed tiling and drywall partition services
+            that add beauty, structure, and practicality to any space. Our
+            attention to detail guarantees smooth finishes and visually
+            impressive interiors.
+          </p>
+        </div>
+
+        <div class="feature">
+          <h3>Modern Shower Cubicles</h3>
+          <p>
+            Structural Aluminium Systems Limited designs and installs stylish,
+            durable, and space-efficient shower cubicles suitable for homes,
+            hotels, offices, and commercial properties. We focus on quality
+            materials and elegant finishing.
+          </p>
+        </div>
+
+        <div class="feature">
+          <h3>Commitment to Quality & Customer Satisfaction</h3>
+          <p>
+            Client satisfaction is at the heart of everything we do. We are
+            committed to delivering projects on time, within budget, and to the
+            highest professional standards. Our goal is to build lasting
+            relationships through trust, reliability, and exceptional service.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
 
 </section>
 
 <!-- POSTS -->
 
 <h2 class="section-title">
-Health Insights
+Project Insights
 </h2>
 
 <section class="card">
